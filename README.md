@@ -1,121 +1,69 @@
-# Welcome to XuLab！
+- # Welcome to XuLab
 
-![Lab Members](http://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/3119f5e81253642700552398894/w4xRqHm2A7cA.png) 
+  At **XuLab**, we are dedicated to advancing the frontiers of super-resolution microscopy, biomedical imaging, and quantitative analysis techniques. Our innovative research spans computational methods, advanced imaging technologies, and machine learning to address pressing challenges in biomedicine.
 
----
+  ---
 
-## Fan Xu
+  ## 👨‍🔬 About Professor Fan Xu
 
-**Principal Investigator**
+  <p align="center">   <img src="http://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/3119f5e81253642700552398894/w4xRqHm2A7cA.png" alt="Professor Fan Xu"> </p>
 
-xufan@bit.edu.cn
+  Dr. Fan Xu is a Professor at the Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology (BIT). He earned his B.S. in Computer Science and Technology at BIT in 2011 and his Ph.D. in Computer Science and Technology from the University of Chinese Academy of Sciences in 2017. Before joining BIT, Dr. Xu worked as a Postdoctoral Fellow and Senior Research Associate in the Weldon School of Biomedical Engineering at Purdue University.
 
-Lab Website：www.XuLab.cc
+  His research focuses on the development and application of super-resolution microscopy techniques, particularly in 3D super-resolution imaging and single-molecule localization analysis. He combines novel imaging instruments with physical models and data-driven approaches to investigate cellular and tissue structures and dynamics that are below the diffraction limit of light, making them inaccessible to conventional microscopy.
 
-### Profile
+  ---
 
-Fan Xu is a Professor at the Advanced Research Institute of Multidisciplinary Sciences, Beijing Institute of Technology (BIT). He earned his B.S. in Computer Science and Technology from BIT in 2011 and his Ph.D. in Computer Science and Technology from the University of Chinese Academy of Sciences in 2017. Before joining BIT, Dr. Xu worked as a Postdoctoral Fellow and Senior Research Associate with Fang Huang in the Weldon School of Biomedical Engineering at Purdue University.
+  ## 🚀 About Us
 
-### Research Interests
+  - **Founded:** 2022
+  - **Affiliation:** Beijing Institute of Technology, ADVANCED RESEARCH INSTITUTE OF MULTIDISCIPLINARY SCIENCE  
+  - **Location:** Beijing, China  
 
-Dr. Xu's research focuses on the development and application of super-resolution microscopy techniques, particularly in the areas of 3D super-resolution imaging and single molecule localization analysis. He combines innovative imaging instruments with physical models or data-driven approaches to explore cellular and tissue structures and dynamics that are below the diffraction limit of light and thus inaccessible to conventional microscopy.
+  Our mission is to revolutionize how scientists visualize and quantify biological structures, dynamics, and functions at the nanoscale.
 
+  Our key research areas include:
 
+  - **Super-resolution intelligent reconstruction:** Developing machine learning approaches to extract multi-dimensional optical information, promoting automation and intelligence in super-resolution microscopy. This enables the resolution of subcellular and extracellular structures in 3D with molecular precision, capturing dynamic processes in living specimens.  
+  - **Visualizing diverse biological and biomedical models:** Creating novel imaging instruments combined with state-of-the-art analytical methods to visualize cellular structures and protein functions across various biological and biomedical model systems.  
+  - **Quantitative analysis for super-resolution data:** Developing mathematical and computational approaches to uncover relationships between biological structures and their functions, transforming super-resolution microscopy into a quantitative bioanalytical tool.  
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Carousel</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-<div class="carousel">
-    <div class="carousel-images">
-        <img src="http://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/a3e30fba1253642700540096726/K1UDUbLm3LoA.png" alt="Image 1">
-        <img src="http://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/7a21b57d1253642700539652534/zBIfSagx4doA.png" alt="Image 2">
-        <img src="http://1304199935.vod-qcloud.com/ba849d0evodcq1304199935/a820c1b71253642700540236466/rxgKiotmLoYA.png" alt="Image 3">
-    </div>
-    <div class="carousel-controls">
-        <button id="prevBtn">&#8249;</button>
-        <button id="nextBtn">&#8250;</button>
-    </div>
-</div>
+  ---
 
+  ## 🔬 Research Highlights
 
-<style>
-.carousel {
-    position: relative;
-    width: 80%;
-    max-width: 1000px;
-    height: 500px;
-    overflow: hidden;
-    border-radius: 10px;
-}
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-.carousel-images img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.carousel-controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    z-index: 10;
-}
-.carousel-controls button {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-}
-.carousel-controls button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-</style>
+  1. **Intelligent Reconstruction for Super-Resolution Microscopy**  
+     We employ machine learning techniques to automate the processing and analysis of high-dimensional microscopy data.  
+     **Outcome:** Capturing dynamic processes and achieving nanometer-level 3D resolution in live samples.  
 
-<script>
-const carouselImages = document.querySelector('.carousel-images');
-const images = document.querySelectorAll('.carousel-images img');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
+  2. **Quantitative Analysis of Super-Resolution Data**  
+     By creating computational frameworks and algorithms, we transform microscopy into a tool for precise quantification of biological phenomena.  
+     **Outcome:** Accelerated analysis workflows and improved reliability of data interpretations.  
 
-let index = 0;
+  3. **Multimodal Biological Imaging**  
+     We design novel imaging instruments for high-throughput, multi-color, and live-cell nanoscale imaging, offering unprecedented insights into cellular structures and protein functions.  
+     **Outcome:** Advanced visualization of intracellular and extracellular structures in real-time.  
 
-function updateCarousel() {
-    const width = images[index].clientWidth;
-    carouselImages.style.transform = `translateX(${-index * width}px)`;
-}
+  Our work has been published in top-tier journals such as **Nature Methods**, **Nature Communications**, **Science Advances**. These contributions have driven significant advancements in the field of biomedical imaging and analysis.
 
-prevBtn.addEventListener('click', () => {
-    index = (index - 1 + images.length) % images.length;
-    updateCarousel();
-});
+  ---
 
-nextBtn.addEventListener('click', () => {
-    index = (index + 1) % images.length;
-    updateCarousel();
-});
+  ## 🌟 Why Choose XuLab?
 
-window.addEventListener('resize', updateCarousel);
-</script>
+  - **State-of-the-Art Facilities**  
+     Our lab is equipped with cutting-edge high-performance computing clusters and advanced imaging systems designed for super-resolution microscopy.  
+  - **Global Collaboration**  
+     We collaborate with leading institutions worldwide to foster cross-disciplinary innovation and tackle global challenges.  
+  - **Interdisciplinary Excellence**  
+     By integrating biology, physics, and computational sciences, we develop groundbreaking solutions that transcend traditional boundaries.  
+
+  ---
+
+  ## 💡 Join Us
+
+  We are always looking for talented and passionate individuals to join our team. Whether you're a motivated student, postdoctoral researcher, or industry collaborator, we welcome you to explore opportunities at XuLab.
+
+  - 📧 **Contact us:** xufan@bit.edu.cn  
+  - 🌐 **Visit our website:** [https://www.xulab.cc](https://www.xulab.cc)  
+
+  Together, let’s push the boundaries of possibility. 🚀
